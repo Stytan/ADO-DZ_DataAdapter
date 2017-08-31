@@ -1,4 +1,4 @@
---Создаём базу
+﻿--Создаём базу
 CREATE DATABASE Library;
 
 GO
@@ -17,10 +17,10 @@ CREATE TABLE Authors (
 
 GO
 --Добавляем авторов
-INSERT INTO Authors(firstname,lastname) VALUES('Александр', 'Бабушкин');
-INSERT INTO Authors(firstname,lastname) VALUES('Азер', 'Абдулла');
-INSERT INTO Authors(firstname,lastname) VALUES('Генрих', 'Багиян');
-INSERT INTO Authors(firstname,lastname) VALUES('Сергей', 'Бельков');
-INSERT INTO Authors(firstname,lastname) VALUES('Лидия', 'Бельская');
-INSERT INTO Authors(firstname,lastname) VALUES('Нина', 'Бойко');
-INSERT INTO Authors(firstname,lastname) VALUES('Мария', 'Табак');
+INSERT INTO Authors(firstname,lastname) VALUES(N'Александр', N'Бабушкин');
+INSERT INTO Authors(firstname,lastname) VALUES(N'Азер', N'Абдулла');
+INSERT INTO Authors(firstname,lastname) VALUES(N'Генрих', N'Багиян');
+INSERT INTO Authors(firstname,lastname) VALUES(N'Сергей', N'Бельков');
+INSERT INTO Authors(firstname,lastname) VALUES(N'Лидия', N'Бельская');
+INSERT INTO Authors(firstname,lastname) VALUES(N'Нина', N'Бойко');
+INSERT INTO Authors(firstname,lastname) VALUES(N'Мария', N'Табак');
